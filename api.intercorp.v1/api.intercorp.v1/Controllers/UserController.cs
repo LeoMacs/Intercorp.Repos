@@ -19,6 +19,10 @@ namespace Intercorp.Api.Controllers
 		public async Task<IActionResult> GetUsers()
 		{
 			var users = await _userService.GetUsersAsync();
+			if (users == null || !users.Any())
+			{
+				return NotFound("No users found"); 
+			}
 			return Ok(users);
 		}
 	}
