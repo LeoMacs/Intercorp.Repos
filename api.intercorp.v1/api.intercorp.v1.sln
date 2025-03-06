@@ -3,15 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35004.147
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Intercorp.Api", "api.intercorp.v1\Intercorp.Api.csproj", "{D61461B0-1050-4215-96EF-49965421B961}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Intercorp.Api", "api.intercorp.v1\Intercorp.Api.csproj", "{D61461B0-1050-4215-96EF-49965421B961}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{416B7C20-0A84-4812-921B-D226BB81AE84}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Intercorp.Application", "Intercorp.Application\Intercorp.Application.csproj", "{C90E11D2-A415-436D-91DA-F852C43F672D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Intercorp.Application", "Intercorp.Application\Intercorp.Application.csproj", "{C90E11D2-A415-436D-91DA-F852C43F672D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Intercorp.Domain", "Intercorp.Domain\Intercorp.Domain.csproj", "{B21CA72B-8C20-472A-944C-FCBABDFB999E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Intercorp.Domain", "Intercorp.Domain\Intercorp.Domain.csproj", "{B21CA72B-8C20-472A-944C-FCBABDFB999E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Intercorp.Infrastructure", "Intercorp.Infrastructure\Intercorp.Infrastructure.csproj", "{A6B71BFA-C944-4E96-AAE6-663710E3DE25}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Intercorp.Infrastructure", "Intercorp.Infrastructure\Intercorp.Infrastructure.csproj", "{A6B71BFA-C944-4E96-AAE6-663710E3DE25}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{E570D52F-BDDE-4E5B-BACE-32351692ACE8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Intercorp.Unitest", "Intercorp.Unitest\Intercorp.Unitest.csproj", "{A1E80FDB-6A4B-444C-AB28-718F728BC3F1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,6 +39,10 @@ Global
 		{A6B71BFA-C944-4E96-AAE6-663710E3DE25}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A6B71BFA-C944-4E96-AAE6-663710E3DE25}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A6B71BFA-C944-4E96-AAE6-663710E3DE25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1E80FDB-6A4B-444C-AB28-718F728BC3F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1E80FDB-6A4B-444C-AB28-718F728BC3F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1E80FDB-6A4B-444C-AB28-718F728BC3F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1E80FDB-6A4B-444C-AB28-718F728BC3F1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -44,6 +52,7 @@ Global
 		{C90E11D2-A415-436D-91DA-F852C43F672D} = {416B7C20-0A84-4812-921B-D226BB81AE84}
 		{B21CA72B-8C20-472A-944C-FCBABDFB999E} = {416B7C20-0A84-4812-921B-D226BB81AE84}
 		{A6B71BFA-C944-4E96-AAE6-663710E3DE25} = {416B7C20-0A84-4812-921B-D226BB81AE84}
+		{A1E80FDB-6A4B-444C-AB28-718F728BC3F1} = {E570D52F-BDDE-4E5B-BACE-32351692ACE8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6969FC2C-7B55-41BE-9B12-E0077C8A5079}
